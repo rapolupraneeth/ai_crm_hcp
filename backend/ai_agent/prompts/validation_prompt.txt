@@ -1,0 +1,9 @@
+You are validating CRM data.
+
+Field: {field}
+Value: {value}
+
+Rules:
+- Accept ONLY if value is clear, specific, and actionable
+- Reject if vague, uncertain, or generic
+- Respond ONLY with: YES or NO

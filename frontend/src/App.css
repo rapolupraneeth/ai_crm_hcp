@@ -1,0 +1,190 @@
+/* ROOT */
+.app {
+  background: #f4f6f9;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* MAIN LAYOUT */
+.main-container {
+  display: flex;
+  height: 100%;
+  gap: 20px;
+}
+
+/* LEFT SIDE (FORM) */
+.form-section {
+  flex: 3;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+}
+
+/* RIGHT SIDE (CHAT PANEL) */
+.chat-section {
+  flex: 1;
+  display: flex;
+}
+
+/* CHAT CARD */
+.chat-section > * {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+/* TITLE */
+.chat-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* CHAT AREA */
+.chat-box {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  overflow-y: auto;
+  background: #fafafa;
+}
+
+/* INPUT AREA */
+.chat-input-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* INPUT */
+.chat-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+.chat-button {
+  padding: 8px 12px;
+  background: #6c7ae0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chat-button:hover {
+  background: #5a67d8;
+}
+
+/* MESSAGE CONTAINER */
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* CHAT BUBBLES */
+.chat-bubble {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  font-size: 14px;
+}
+
+/* USER MESSAGE */
+.chat-bubble.user {
+  align-self: flex-end;
+  background-color: #dcf8c6;
+}
+
+/* AI MESSAGE */
+.chat-bubble.assistant {
+  align-self: flex-start;
+  background-color: #e5e5ea;
+}
+
+/* SECONDARY BUTTON */
+.chat-button.secondary {
+  background: #ccc;
+  color: #333;
+}
+
+.chat-button.secondary:hover {
+  background: #bbb;
+}
+
+/* FORM CONTAINER */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* TITLE */
+.form-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* CARD */
+.form-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+}
+
+/* ROW (2 COLUMN GRID) */
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+/* FIELD */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* FULL WIDTH FIELD */
+.form-field.full {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* INPUTS */
+.form-field input,
+.form-field textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* TEXTAREA */
+.form-field textarea {
+  min-height: 80px;
+}
+
+/* SENTIMENT */
+.sentiment-group {
+  display: flex;
+  gap: 15px;
+}
+
+/* DUE DAYS */
+.due-days {
+  margin-top: 10px;
+  font-weight: 500;
+}

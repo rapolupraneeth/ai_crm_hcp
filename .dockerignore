@@ -1,0 +1,19 @@
+# General
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+.dockerignore
+.env
+**/.env
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*.db
+*.sqlite
+.venv
+node_modules
+frontend/node_modules
+backend/uploads
+frontend/dist
