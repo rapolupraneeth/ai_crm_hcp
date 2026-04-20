@@ -10,7 +10,7 @@ class Settings(BaseSettings):
 
     database_url: str = "postgresql+psycopg2://postgres:Praneeth@localhost:5432/ai_crm_hcp"
 
-    groq_api_key: str = Field(..., description="GROQ_API_KEY from .env file")
+    groq_api_key: str = Field(..., description="GROQ_API_KEY")
     groq_model: str = Field(default="llama-3.3-70b-versatile", description="Groq model name")
 
 
